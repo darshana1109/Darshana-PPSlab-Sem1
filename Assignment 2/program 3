@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main ()
+{
+    int a, b,c,t;
+    printf ("input three angles of triangle");
+    scanf ("d% d% d", & a& b& c);
+    t=a+b+c
+    if (t==180);
+{
+    printf ("the triangle is valid");
+}
+else
+{
+    printf ("the tringle is not valid");
+}
+}
